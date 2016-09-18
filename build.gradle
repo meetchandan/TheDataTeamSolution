@@ -6,7 +6,6 @@ repositories {
 }
 
 
-apply plugin: 'java'
 apply plugin: 'scala'
 apply plugin: 'idea'
 
@@ -14,5 +13,5 @@ apply plugin: 'idea'
 dependencies {
     compile 'org.scala-lang:scala-library:2.10.0'
     compile 'org.apache.spark:spark-core_2.10:1.6.1'
-    testCompile 'junit:junit:4.12'
+
 }
